@@ -8,7 +8,7 @@ from math import sqrt
 import altair as alt
 import numpy as np 
 
-df=pd.read_csv(r'C:\Users\sujay\OneDrive\Documents\PythonPrj\c21.csv')
+df=pd.read_csv(r'c21.csv')
 
 nav=st.sidebar.radio('NAVIGATION',['Home','Inventory'])
 
