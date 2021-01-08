@@ -25,8 +25,10 @@ if nav=='Inventory':
         st.write('Hello Bhois..!')
         models = pd.DataFrame({
         'Model Name': ['ARIMA'],
-         'RMSE Score': ['600' ]
-             })
+         'RMSE Score': ['600' ]})
+        Index = pd.Series([1])
+        models.set_index(Index, inplace=True)
+        models
             
     st.title("Result")
     if  medicine_name == 'Machine Learning Algorithm':
@@ -34,10 +36,7 @@ if nav=='Inventory':
     'Model Name': ['Linear Regression','KNN Regression',
               'Decision Tree Regression','Random Forest Regression'],
     
-    'RMSE Score': ['21847.47', '18955.10', ' 5018.82', '4197.05'],  'R2 Score': ['0.09', '0.09', ' 0.95', '0.97']
-   
-    })
-
+    'RMSE Score': ['21847.47', '18955.10', ' 5018.82', '4197.05'],  'R2 Score': ['0.09', '0.09', ' 0.95', '0.97']})
     Index = pd.Series([1, 2, 3, 4])
     models.set_index(Index, inplace=True)
     models
