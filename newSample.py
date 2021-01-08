@@ -36,4 +36,4 @@ if nav=='Inventory':
 
     Index = pd.Series([1, 2, 3, 4])
     models.set_index(Index, inplace=True)
-    models
+    
