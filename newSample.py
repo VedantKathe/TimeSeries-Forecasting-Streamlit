@@ -37,6 +37,6 @@ if nav=='Inventory':
               'Decision Tree Regression','Random Forest Regression'],
     
     'RMSE Score': ['21847.47', '18955.10', ' 5018.82', '4197.05'],  'R2 Score': ['0.09', '0.09', ' 0.95', '0.97']})
-    Index = pd.Series([1, 2, 3, 4])
-    models.set_index(Index, inplace=True)
-    models
+        Index = pd.Series([1, 2, 3, 4])
+        models.set_index(Index, inplace=True)
+        models
