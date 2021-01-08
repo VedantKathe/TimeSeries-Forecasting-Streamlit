@@ -22,6 +22,7 @@ if nav=='Inventory':
     )
     
     if  medicine_name == 'Time Series Model':
+        st.title("Result")
         st.write('Hello Bhois..!')
         models = pd.DataFrame({
         'Model Name': ['ARIMA'],
@@ -30,8 +31,9 @@ if nav=='Inventory':
         models.set_index(Index, inplace=True)
         models
             
-    st.title("Result")
+    
     if  medicine_name == 'Machine Learning Algorithm':
+        st.title("Result")
         models = pd.DataFrame({
     'Model Name': ['Linear Regression','KNN Regression',
               'Decision Tree Regression','Random Forest Regression'],
