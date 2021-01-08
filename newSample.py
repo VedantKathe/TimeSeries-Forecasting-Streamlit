@@ -23,7 +23,11 @@ if nav=='Inventory':
     
     if  medicine_name == 'Time Series Model':
         st.write('Hello Bhois..!')
-    
+        models = pd.DataFrame({
+        'Model Name': ['ARIMA'],
+         'RMSE Score': ['600' ]
+             })
+            
     st.title("Result")
     if  medicine_name == 'Machine Learning Algorithm':
         models = pd.DataFrame({
